@@ -31,10 +31,10 @@ CD Pipeline - Downloading the LTS artifact from artifactory and running the new 
 * Create a release pipeline definition -Click on "add a new artifact"
 * Configure the artifact trigger: Continuous deployment trigger: Enabled
 * Create a file creator that set the variables by the correct group - staging / prod
-![image](https://user-images.githubusercontent.com/71599740/140198643-f4f3ddf8-ee2c-476e-9354-a55e3ed04c0c.png)
-* Create the group variables and edit them: ![image](https://user-images.githubusercontent.com/71599740/140198710-d53c63da-bc5a-49ad-8539-a9da0e9cffa2.png)
+![image](https://user-images.githubusercontent.com/47865329/140267436-7fedf9e8-ef90-428b-87b5-d1ff5b65179b.png)
+* Create the group variables and edit them: ![image](https://user-images.githubusercontent.com/47865329/140267713-ac3dfaa1-0e74-45aa-88a6-c9a7d9b4f87e.png)
 * Copy the application artifact to the remote machines (vm-staging1 and vm-staging2)
-![image](https://user-images.githubusercontent.com/71599740/140198939-3ecc2da3-c7d4-4156-82cf-754f0adcbb74.png)
+![image](https://user-images.githubusercontent.com/47865329/140267889-20a34a78-ac19-4f48-9a65-82fa531d30bd.png)
 * Then run the playbook:
 ![image](https://user-images.githubusercontent.com/71599740/140199003-be1d5eea-43b3-4215-88c1-2db241863fe2.png)
 ![image](https://user-images.githubusercontent.com/71599740/140199039-69846f1a-7eb9-47f6-9cc9-f17c9c38ae5f.png)
