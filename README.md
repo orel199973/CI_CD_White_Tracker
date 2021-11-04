@@ -25,8 +25,8 @@ CD Pipeline - Downloading the LTS artifact from artifactory and running the new 
 ![image](https://user-images.githubusercontent.com/47865329/140266466-64e7ac10-20ff-424a-ba25-0e861db04d13.png)
 ![image](https://user-images.githubusercontent.com/47865329/140266531-16bbeb19-73c1-464a-aa86-22b9517be82d.png)
 ![image](https://user-images.githubusercontent.com/47865329/140266605-50d39769-f86c-4dfd-9793-594cf197bbba.png)
-* Click on "add a new artifact" and add [ansible-repo](https://github.com/inbalLevi/CI_CD_Ansible)
- ![image](https://user-images.githubusercontent.com/71599740/140198353-9679236a-b805-499f-af56-4ef1bdc9b96b.png)
+* Click on "add a new artifact" and add [ansible-repo](https://github.com/orel199973/CI_CD_Ansible)
+ ![image](https://user-images.githubusercontent.com/47865329/140267142-ea4b6f71-ccc4-4b02-8e8e-19f6c94394bc.png)
  ![image](https://user-images.githubusercontent.com/71599740/140198412-47fe53e3-0928-4ca0-954a-62766aa70a5f.png)
 * Create a release pipeline definition -Click on "add a new artifact"
 * Configure the artifact trigger: Continuous deployment trigger: Enabled
