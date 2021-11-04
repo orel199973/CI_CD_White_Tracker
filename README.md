@@ -52,6 +52,7 @@ If you would like to make a change to the app push the new commit to the master 
 
 
 # Emphasis:
-* To provision the infrastructure I've used my previous project: https://github.com/orel199973/CI_CD_Ansible
-* To install all dependencies on the nodes and to deploy and run the application for the first time I've used this project: https://github.com/orel199973/bootcamp-app
-* The terraform repo: https://github.com/orel199973/CI_CD_Terraform
+## To provision the infrastructure I've used my previous project: </br>
+* The Ansible repository - https://github.com/orel199973/CI_CD_Ansible </br>
+* The terraform repository - https://github.com/orel199973/CI_CD_Terraform </br>
+* To install all dependencies on the nodes and to deploy and run the application for the first time I've used this project - https://github.com/orel199973/bootcamp-app </br>
