@@ -42,8 +42,9 @@ CD Pipeline - Downloading the LTS artifact from artifactory and running the new 
 * finally this is the full ci-cd:
 ![image](https://user-images.githubusercontent.com/47865329/140268293-c2e087f2-5952-47bd-aa9f-807989337dbe.png)
 
-
+* Web App Staging:
 ![image](https://user-images.githubusercontent.com/47865329/140268431-a2f97e81-7e8a-4999-88fc-1f7b2a7e65ad.png)
+* Web App Prod:
 ![image](https://user-images.githubusercontent.com/47865329/140268487-70c0beba-01d1-4ff5-aa75-7cd80775fb2c.png)
 
 
