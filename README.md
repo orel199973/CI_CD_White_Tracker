@@ -4,7 +4,8 @@ Configure CI/CD pipelines to deploy the Node Weight Tracker application for 2 en
 ![image](https://user-images.githubusercontent.com/71599740/140197294-11143f63-c432-4c57-b5b7-13827e8c9075.png)
 
 ### Welcome To azure devops!
-![image](https://user-images.githubusercontent.com/71599740/140197381-d21ebd72-8d92-49ac-9d9e-de9fb732c762.png)
+![image](https://user-images.githubusercontent.com/47865329/140266113-883ef7b7-1662-42dd-adbb-549ddab668b3.png)
+
 
 There are 2 pipelines:
 CI pipeline - creating an artifact and uploading to Artifactory
@@ -21,9 +22,9 @@ CD Pipeline - Downloading the LTS artifact from artifactory and running the new 
 * Configured the pipeline to run in the agent-pool (CI)
 * Configure CI Trigger: Enable continuous integration   => If you would like to make a change to the app push the new commit to the master branch and the pipelines will do the rest
 * Create these tasks:
-![image](https://user-images.githubusercontent.com/71599740/140198092-31a20969-253c-459f-9535-af7b9beea8eb.png)
-![image](https://user-images.githubusercontent.com/71599740/140198120-de257079-6870-492b-97d7-f74382bc6521.png)
-![image](https://user-images.githubusercontent.com/71599740/140198146-ffb913cb-d176-4c0a-bbf5-df2235b9057a.png)
+![image](https://user-images.githubusercontent.com/47865329/140266466-64e7ac10-20ff-424a-ba25-0e861db04d13.png)
+![image](https://user-images.githubusercontent.com/47865329/140266531-16bbeb19-73c1-464a-aa86-22b9517be82d.png)
+![image](https://user-images.githubusercontent.com/47865329/140266605-50d39769-f86c-4dfd-9793-594cf197bbba.png)
 * Click on "add a new artifact" and add [ansible-repo](https://github.com/inbalLevi/CI_CD_Ansible)
  ![image](https://user-images.githubusercontent.com/71599740/140198353-9679236a-b805-499f-af56-4ef1bdc9b96b.png)
  ![image](https://user-images.githubusercontent.com/71599740/140198412-47fe53e3-0928-4ca0-954a-62766aa70a5f.png)
