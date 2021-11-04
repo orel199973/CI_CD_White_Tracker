@@ -27,7 +27,6 @@ CD Pipeline - Downloading the LTS artifact from artifactory and running the new 
 ![image](https://user-images.githubusercontent.com/47865329/140266605-50d39769-f86c-4dfd-9793-594cf197bbba.png)
 * Click on "add a new artifact" and add [ansible-repo](https://github.com/orel199973/CI_CD_Ansible)
  ![image](https://user-images.githubusercontent.com/47865329/140267142-ea4b6f71-ccc4-4b02-8e8e-19f6c94394bc.png)
- ![image](https://user-images.githubusercontent.com/71599740/140198412-47fe53e3-0928-4ca0-954a-62766aa70a5f.png)
 * Create a release pipeline definition -Click on "add a new artifact"
 * Configure the artifact trigger: Continuous deployment trigger: Enabled
 * Create a file creator that set the variables by the correct group - staging / prod
