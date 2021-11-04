@@ -29,7 +29,7 @@ CD Pipeline - Downloading the LTS artifact from artifactory and running the new 
 ![image](https://user-images.githubusercontent.com/71599740/140198353-9679236a-b805-499f-af56-4ef1bdc9b96b.png)
 ![image](https://user-images.githubusercontent.com/47865329/140267142-ea4b6f71-ccc4-4b02-8e8e-19f6c94394bc.png)
 * Create a release pipeline definition -Click on "add a new artifact"
-* Configure the artifact trigger: Continuous deployment trigger: Enabled
+* Configure the artifact trigger: Continuous deployment trigger: Enabled 
 * Create a file creator that set the variables by the correct group - staging / prod
 ![image](https://user-images.githubusercontent.com/47865329/140267436-7fedf9e8-ef90-428b-87b5-d1ff5b65179b.png)
 * Create the group variables and edit them: ![image](https://user-images.githubusercontent.com/47865329/140267713-ac3dfaa1-0e74-45aa-88a6-c9a7d9b4f87e.png)
